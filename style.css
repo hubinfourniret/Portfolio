@@ -1,0 +1,24 @@
+/*
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; color: #333; }
+header { background-color: #4B0082; color: white; padding: 1.5em 0; text-align: center; }
+nav { background-color: #333; padding: 1em; text-align: center; }
+nav a { color: white; margin: 0 1em; text-decoration: none; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+section { max-width: 1000px; margin: auto; padding: 2em; }
+.card { background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); padding: 2em; margin-bottom: 2em; }
+h1, h2 { color: #4B0082; }
+ul { padding-left: 1.2em; }
+footer { text-align: center; padding: 1em; font-size: 0.9em; background-color: #eee; margin-top: 3em; }
+img { max-width: 200px; border-radius: 10px; display: block; margin-top: 1em; }
+*/
+body { font-family: Arial, sans-serif; margin: 0; background-color: #f9f9f9; color: #333; }
+header, nav, footer { text-align: center; padding: 1em; }
+header { background-color: #4B0082; color: white; }
+nav { background-color: #333; }
+nav a { color: white; margin: 0 1em; text-decoration: none; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+section { max-width: 1000px; margin: auto; padding: 2em; }
+.project { background: white; border-radius: 8px; padding: 2em; box-shadow: 0 0 10px rgba(0,0,0,0.1); margin-bottom: 2em; }
+h2, h3 { color: #4B0082; }
+img { max-width: 100%; border-radius: 8px; margin-top: 1em; }
+ul { padding-left: 1.2em; }
