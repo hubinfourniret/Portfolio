@@ -6,6 +6,18 @@
     <title>Portfolio - Hubin Fourniret</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<button id="backToTop" class="back-to-top">↑ Haut</button>
+<script>
+    const btn = document.getElementById("backToTop");
+
+    window.onscroll = () => {
+        btn.style.display = window.scrollY > 300 ? "block" : "none";
+    };
+
+    btn.onclick = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+</script>
 <body>
 <header>
     <h1>Portfolio - Hubin Fourniret</h1>
@@ -17,3 +29,4 @@
     <a href="preuves.php">Réalisations</a>
     <a href="veille.php">Veille</a>
 </nav>
+
