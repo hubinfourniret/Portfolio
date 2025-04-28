@@ -3,8 +3,7 @@
     <div class="project">
         <h2>Présentation</h2>
         <p>Je m'appelle <strong>Hubin Fourniret</strong>, étudiant en 2ᵉ année de BTS SIO (option SLAM) au lycée Sainte-Ursule à Caen.</p>
-        <p><a href="assets/cv.pdf" target="_blank"> Voir mon CV</a></p>
-        <img src="img/photo.jpg" alt="Photo de Hubin Fourniret">
+        <p><a href="./Public/CV.pdf" target="_blank"> Voir mon CV</a></p>
     </div>
 
     <div class="project">
@@ -36,7 +35,8 @@
             <li><strong>Téléphone :</strong> 06 33 61 73 41</li>
             <li><strong>Localisation :</strong> Caen (14000)</li>
             <li><strong>CodersRank :</strong> <a href="https://profile.codersrank.io/user/hubinfourniret" target="_blank">Voir mon profil</a></li>
-            <li><strong>GitHub / LinkedIn :</strong> (à ajouter si tu veux)</li>
+            <li><strong>GitHub :</strong> <a href="https://github.com/hubinfourniret"> Voir mon profil</a></li>
+            <li><strong>GitLab :</strong> <a href="https://gitlab.com/Hubin.Fourniret"> Voir mon profil</a></li>
         </ul>
     </div>
 </section>
