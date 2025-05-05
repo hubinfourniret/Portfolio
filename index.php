@@ -227,10 +227,6 @@
           <h2>Application Kamban</h2>
           <p><strong>Contexte :</strong> Projet de groupe réalisé en formation</p>
           <p><strong>Objectif :</strong> Créer une application Kamban</p>
-          <p><strong>Tâches :</strong></p>
-          <ul>
-              <li>Créer une application qui permet de répartir des tâches sur un projets</li>
-          </ul>
           <p><strong>Technologies :</strong> Kotlin, Spring Boot, React.js, Ant Design, Git</p>
           <p><strong>Compétences mobilisées :</strong> MVC, développement en équipe, déploiement, documentation</p>
           <img src="img/app_bancaire.png" alt="Capture application bancaire">
@@ -286,12 +282,6 @@
           <h2>Application bancaire</h2>
           <p><strong>Contexte :</strong> Projet de groupe réalisé en formation</p>
           <p><strong>Objectif :</strong> Créer une application bancaire</p>
-          <p><strong>Tâches :</strong></p>
-          <ul>
-              <li></li>
-              <li>Gestion des comptes, virements, historique</li>
-              <li>Tests unitaires avec JUnit</li>
-          </ul>
           <p><strong>Technologies :</strong> PHP, Symfony, MySQL</p>
           <p><strong>Compétences mobilisées :</strong> développement web, POO, architecture MVC</p>
           <img src="img/app_bancaire.png" alt="Capture projet bancaire">
@@ -304,11 +294,6 @@
           <h2>Application d'Albums Photos</h2>
           <p><strong>Contexte :</strong> Projet de groupe réalisé en formation</p>
           <p><strong>Objectif :</strong> Créer une application d'albums photos</p>
-          <p><strong>Tâches :</strong></p>
-          <ul>
-              <li>Gestion des albums et des photos</li>
-              <li>Pouvoir updload des photos</li>
-          </ul>
           <p><strong>Technologies :</strong> PHP, HTML, CSS, MySQL</p>
           <p><strong>Compétences mobilisées :</strong> développement web, POO</p>
           <img src="img/app_bancaire.png" alt="Capture projet bancaire">
