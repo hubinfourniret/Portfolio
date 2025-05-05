@@ -1,7 +1,6 @@
 <?php include 'header.php'; ?>
-<section>
-
-    <div class="project">
+<section class="section" id="veille">
+    <div class="card">
         <h2>Pourquoi j’ai choisi l’IA et l’informatique quantique</h2>
         <p>
             J’ai choisi de centrer ma veille sur l’intelligence artificielle (IA) et les ordinateurs quantiques car ce sont deux domaines technologiques à fort impact, en pleine évolution, et dont les interactions promettent de transformer en profondeur l’informatique de demain.
@@ -16,8 +15,10 @@
             Ce sujet m’a également attiré pour son aspect prospectif : comprendre aujourd’hui ces technologies permet d’anticiper les compétences à acquérir pour évoluer dans les métiers du numérique.
         </p>
     </div>
+</section>
 
-    <div class="project">
+<section class="section">
+    <div class="card">
         <h2>Évolution technologique</h2>
         <ul>
             <li><strong>Intelligence artificielle :</strong>
@@ -36,8 +37,10 @@
             </li>
         </ul>
     </div>
+</section>
 
-    <div class="project">
+<section class="section">
+    <div class="card">
         <h2>Cas d’usage actuels</h2>
         <ul>
             <li><strong>IA :</strong>
@@ -56,8 +59,10 @@
             </li>
         </ul>
     </div>
+</section>
 
-    <div class="project">
+<section class="section">
+    <div class="card">
         <h2>Perspectives</h2>
         <ul>
             <li>L’IA va continuer à se démocratiser dans tous les métiers de l’informatique (développeur augmenté).</li>
@@ -66,8 +71,10 @@
             <li>Des défis éthiques émergent : contrôle, cybersécurité, emploi, dépendance aux grandes entreprises technologiques.</li>
         </ul>
     </div>
+</section>
 
-    <div class="project">
+<section class="section">
+    <div class="card">
         <h2>Veille technologique (Flux RSS)</h2>
 
         <h3>🧠 Intelligence artificielle</h3>
@@ -102,7 +109,7 @@
             ?>
         </ul>
     </div>
-
-
-</section>
+</section><section class="section">
+    <div class="card">
+    </div>
 <?php include 'footer.php'; ?>
