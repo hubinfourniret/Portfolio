@@ -54,9 +54,26 @@
           <h2>Application Kamban</h2>
           <p><strong>Contexte :</strong> Projet de groupe réalisé en formation</p>
           <p><strong>Objectif :</strong> Créer une application Kamban</p>
-          <p><strong>Technologies :</strong> Kotlin, Spring Boot, React.js, Ant Design, Git</p>
-          <p><strong>Compétences mobilisées :</strong> MVC, développement en équipe, déploiement, documentation</p>
-
+          <p><strong>Technologies :</strong> Kotlin, Spring Boot, React.js, Ant Design, Git</p><br>
+          <p><strong>Compétences mobilisées :</strong></p>
+          <ul>
+              <li>Organiser son développement professionnel :
+                  <ul>
+                      <li>Mettre en place son environnement d’apprentissage personnel</li>
+                  </ul>
+              </li>
+              <li>Répondre aux incidents et aux demandes d’assistance et d’évolution :
+                  <ul>
+                      <li>Traiter des demandes concernant les services réseau et système, applicatifs</li>
+                  </ul>
+              </li>
+              <li>Mettre à disposition des utilisateurs un service informatique :
+                  <ul>
+                      <li>Réaliser les tests d’intégration et d’acceptation d’un service</li>
+                      <li>Déployer un service</li>
+                  </ul>
+              </li>
+          </ul>
           <img src="Public/kanban.png" class="zoomable" data-group="kanban" onclick="openZoom(this)">
           <img src="Public/kanban2.png" class="zoomable" data-group="kanban" onclick="openZoom(this)" style="display: none;">
           <img src="Public/kanban3.png" class="zoomable" data-group="kanban" onclick="openZoom(this)" style="display: none;">
@@ -65,26 +82,72 @@
       </div>
   </section>
 
-  <section class="section">
+  <section class="section" id="projets">
       <div class="card">
           <h2>Stage chez Grinto</h2>
           <p><strong>Contexte :</strong> Stage de 7 semaines en entreprise</p>
-          <p><strong>Objectif :</strong> Contribuer à une application SaaS et création de script de scrapping</p>
+          <p><strong>Objectif :</strong> Contribuer à une application SaaS et création de scripts de scrapping</p>
           <p><strong>Tâches :</strong></p>
           <ul>
               <li>Scraping Python et intégration API</li>
               <li>Migration de base MySQL vers PostgreSQL</li>
-              <li>Fonctionnalités en Node.js (back) et React (front)</li>
+              <li>Fonctionnalités en Node.js (back) et React.js (front)</li>
           </ul>
-          <p><strong>Technologies :</strong> Python, PostgreSQL, Node.js, React</p>
-          <p><strong>Compétences mobilisées :</strong> développement fullstack, migration BDD, autonomie</p>
-
+          <p><strong>Technologies :</strong> Python, PostgreSQL, Node.js, React.js</p><br>
+          <p><strong>Compétences mobilisées :</strong></p>
+          <ul>
+              <li>Réponse aux incidents et aux demandes d’assistance et d’évolution :
+                  <ul>
+                      <li>Traitement des demandes concernant les applications</li>
+                  </ul>
+              </li>
+              <li>Mettre à disposition des utilisateurs un service informatique :
+                  <ul>
+                      <li>Test d’intégration et d’acceptation d’un service</li>
+                      <li>Déploiement d’un service</li>
+                  </ul>
+              </li>
+              <li>Organisation de son développement professionnel :
+                  <ul>
+                      <li>Mise en place de son environnement d'apprentissage personnel</li>
+                  </ul>
+              </li>
+          </ul>
           <img src="Public/Grinto.png" class="zoomable" data-group="Grinto" onclick="openZoom(this)">
 
           <p><a href=https://github.com/grinto-dev/scraping_datadunk.git>Lien vers le repositories GitHub de scrapping</a></p>
-          <p><a href=https://github.com/grinto-dev/datadunk-api.git>Lien vers le repositories GitHub de DataDunk</a></p>
+          <p><a href=https://github.com/grinto-dev/datadunk-api/tree/travail-hubin>Lien vers le repositories GitHub de DataDunk</a></p>
+          <p><a href=https://scoutbasketball.com/competitions?CompetitionSearch%5Bname%5D=&CompetitionSearch%5Btypes%5D=&CompetitionSearch%5Bcountries%5D=&CompetitionSearch%5Bcountries%5D%5B%5D=325>Lien vers le site de scouting</a></p>
       </div>
   </section>
+
+    <section class="section" id="projets">
+        <div class="card">
+            <h2>Stage à la Ligue de Noramandie des Sports de Glace</h2>
+            <p><strong>Contexte :</strong> Stage de 5 semaines en entreprise</p>
+            <p><strong>Objectif :</strong> Développer un site via AssoConnect</p>
+            <p><strong>Technologies :</strong> AssoConnect, Figma</p><br>
+            <p><strong>Compétences mobilisées :</strong></p>
+            <ul>
+                <li>Développer la présence en ligne de l’organisation :
+                    <ul>
+                        <li>Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques</li>
+                        <li>Participer à l’évolution d’un site Web exploitant les données de l’organisation</li>
+                    </ul>
+                </li>
+                <li>Travailler en mode projet :
+                    <ul>
+                        <li>-Planifier les activités</li>
+                    </ul>
+                </li>
+                <li>Répondre aux incidents et aux demandes d’assistance et d’évolution :
+                    <ul>
+                        <li>Collecter, suivre et orienter des demandes</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
 
   <section class="section">
       <div class="card">
@@ -99,9 +162,27 @@
               <li>Gestion de version et du travail collaboratif avec GitLab</li>
               <li>Tests d’intégration et validation du service</li>
           </ul>
-          <p><strong>Technologies :</strong> Java, Spring Boot, Mustache, HTML, CSS, MySQL, GitLab</p>
-          <p><strong>Compétences mobilisées :</strong> Travail en mode projet (analyse, planification), Programmation orientée objet (POO), Utilisation du modèle MVC, Tests et validation d'applications.</p>
-          <img src="img/todolist.png" alt="Capture de l'application Todolist">
+          <p><strong>Technologies :</strong> Java, Spring Boot, Mustache, HTML, CSS, MySQL, GitLab</p><br>
+          <p><strong>Compétences mobilisées :</strong></p>
+          <ul>
+              <li>Travail en mode projet :
+                  <ul>
+                      <li>Analyse des objectifs et des modalités d'organisation d'un projet</li>
+                      <li>Planification des activités</li>
+                  </ul>
+              </li>
+              <li>Mettre à disposition des utilisateurs un service informatique :
+                  <ul>
+                      <li>Réaliser les tests d’intégration et d’acceptation d’un service</li>
+                  </ul>
+              </li>
+          </ul>
+
+          <img src="Public/todolist1.png" class="zoomable" data-group="todolist" onclick="openZoom(this)">
+          <img src="Public/todolist2.png" class="zoomable" data-group="todolist" onclick="openZoom(this)" style="display: none;">
+          <img src="Public/todolist3.png" class="zoomable" data-group="todolist" onclick="openZoom(this)" style="display: none;">
+          <img src="Public/todolist4.png" class="zoomable" data-group="todolist" onclick="openZoom(this)" style="display: none;">
+
           <p><a href="https://gitlab.com/caensup9475439/2-sio-slam/2024/todos/project-y-todolist.git">Lien vers le repository GitLab</a></p>
       </div>
   </section>
@@ -111,10 +192,17 @@
           <h2>Application bancaire</h2>
           <p><strong>Contexte :</strong> Projet de groupe réalisé en formation</p>
           <p><strong>Objectif :</strong> Créer une application bancaire</p>
-          <p><strong>Technologies :</strong> PHP, Symfony, MySQL</p>
-          <p><strong>Compétences mobilisées :</strong> développement web, POO, architecture MVC</p>
-          <img src="img/app_bancaire.png" alt="Capture projet bancaire">
-          <p><a href="#">(Lien non disponible)</a></p>
+          <p><strong>Technologies :</strong> PHP, Symfony, MySQL</p><br>
+          <p><strong>Compétences mobilisées :</strong></p>
+          <ul>
+              <li>Travail en mode projet :
+                  <ul>
+                      <li>Analyse des objectifs et des modalités d'organisation d'un projet</li>
+                      <li>Planification des activités</li>
+                  </ul>
+              </li>
+          </ul>
+          <p><a href="https://gitlab.com/caensup9475439/2-sio-slam/2024/my-budget/projet-y.git">Lien vers le repository GitLab</a></p>
       </div>
   </section>
 
@@ -123,10 +211,25 @@
           <h2>Application d'Albums Photos</h2>
           <p><strong>Contexte :</strong> Projet de groupe réalisé en formation</p>
           <p><strong>Objectif :</strong> Créer une application d'albums photos</p>
-          <p><strong>Technologies :</strong> PHP, HTML, CSS, MySQL</p>
-          <p><strong>Compétences mobilisées :</strong> développement web, POO</p>
-          <img src="img/app_bancaire.png" alt="Capture projet bancaire">
-          <p><a href="#">(Lien non disponible)</a></p>
+          <p><strong>Technologies :</strong> PHP, HTML, CSS, MySQL</p><br>
+          <p><strong>Compétences mobilisées :</strong></p>
+          <ul>
+              <li>Gérer le patrimoine informatique :
+                  <ul>
+                      <li>Gérer des sauvegardes</li>
+                  </ul>
+              </li>
+              <li>Répondre aux incidents et aux demandes d'asssitance et d'évolution :
+                  <ul>
+                      <li>Traiter des demandes concernant les applications</li>
+                  </ul>
+              </li>
+          </ul>
+
+          <img src="Public/album.png" class="zoomable" data-group="album" onclick="openZoom(this)">
+          <img src="Public/album2.png" class="zoomable" data-group="album" onclick="openZoom(this)" style="display: none;">
+
+          <p><a href="https://github.com/hubinfourniret/Albums-valuation.git">Lien vers le repository GitHub</a></p>
       </div>
   </section>
 <?php include 'footer.php'; ?>

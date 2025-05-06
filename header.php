@@ -12,15 +12,51 @@
             box-sizing: border-box;
         }
 
+        .card ul {
+            list-style: none;
+            padding-left: 1.2rem; /* Indentation de base */
+        }
+
+        .card ul li::before {
+            content: '▹';
+            color: #1A535C;
+            margin-right: 0.5rem;
+        }
+
+        .card ul ul {
+            margin-top: 0.3rem;
+            padding-left: 1.5rem; /* Indentation supplémentaire pour les sous-listes */
+        }
+
+        .card ul ul li::before {
+            content: '–'; /* Une puce différente pour les sous-éléments */
+            color: #1A535C;
+        }
+
+
+        footer {
+            background: linear-gradient(135deg, #1e1e2f, #083D77);
+            color: #ccc;
+            text-align: center;
+            padding: 2.5rem 1rem;
+            margin-top: 4rem;
+            font-size: 0.95rem;
+            border-top: 4px solid #ffffff10;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
         body {
             font-family: 'Inter', sans-serif;
-            background: linear-gradient(to bottom, #e6e6fa, #d3d3f3);
+            background: linear-gradient(250deg, #47a69f, #ffffff);
             color: #1e1e2f;
             line-height: 1.6;
         }
 
         header {
-            background: linear-gradient(135deg, #4b0082, #6a0dad);
+            background: linear-gradient(135deg, #083D77, #47a69f);
+            /*background: linear-gradient(135deg, #1A535C, #2F8780);
+            background: linear-gradient(135deg, #083D77, #2F8780);*/
             color: white;
             padding: 3rem 1rem;
             text-align: center;
@@ -49,7 +85,7 @@
 
         nav a {
             text-decoration: none;
-            color: #4b0082;
+            color: #1A535C;
             font-weight: 600;
         }
 
@@ -68,7 +104,7 @@
         }
 
         .card h2 {
-            color: #4b0082;
+            color: #1A535C;
             margin-bottom: 1rem;
             font-size: 1.5rem;
         }
@@ -80,7 +116,7 @@
 
         .card ul li::before {
             content: '▹';
-            color: #6a0dad;
+            color: #1A535C;
             margin-right: 0.5rem;
         }
 
@@ -93,7 +129,7 @@
         }
 
         a {
-            color: #4b0082;
+            color: #1A535C;
         }
 
         .contact a {

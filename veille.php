@@ -75,8 +75,7 @@
 
 <section class="section">
     <div class="card">
-        <h2>Veille technologique (Flux RSS)</h2>
-
+        <h2>Veille technologique - Flux RSS</h2>
         <h3>🧠 Intelligence artificielle</h3>
         <ul>
             <?php
@@ -108,8 +107,9 @@
             }
             ?>
         </ul>
+        <br>
+        <a href="https://feedly.com/i/my/me">Lien vers Feedly</a>
     </div>
-</section><section class="section">
-    <div class="card">
-    </div>
+</section>
+
 <?php include 'footer.php'; ?>
