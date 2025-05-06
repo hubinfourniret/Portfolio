@@ -76,7 +76,7 @@
 <section class="section">
     <div class="card">
         <h2>Veille technologique - Flux RSS</h2>
-        <h3>🧠 Intelligence artificielle</h3>
+        <h3>Intelligence artificielle</h3>
         <ul>
             <?php
             $rss = @simplexml_load_file('https://www.technologyreview.com/feed/');
@@ -92,7 +92,7 @@
             ?>
         </ul>
 
-        <h3>⚛️ Informatique quantique</h3>
+        <h3>Informatique quantique</h3>
         <ul>
             <?php
             $rss = @simplexml_load_file('https://www.quantamagazine.org/tag/quantum-computing/feed/');
